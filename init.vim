@@ -13,7 +13,7 @@ Plug 'josegamez82/starrynight'
 Plug 'preservim/nerdtree'
 Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
-" Plug 'scrooloose/syntastic'
+Plug 'APZelos/blamer.nvim'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'hashivim/vim-terraform'
 Plug 'vimlab/split-term.vim'
@@ -156,3 +156,6 @@ let g:gitgutter_sign_modified_removed = '<'
 let g:gitgutter_override_sign_column_highlight = 1
 highlight SignColumn guibg=bg
 highlight SignColumn ctermbg=bg
+
+" Enable gitblam
+let g:blamer_enabled = 1
